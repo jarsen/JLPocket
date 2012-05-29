@@ -3,9 +3,10 @@ JLPocket
 
 JLPocket provides a very simple wrapper around the Pocket API (formerly Read It Later) for iOS applications.
 
-Why it's better than the [ReadItLaterFull/Lite](http://getpocket.com/api/libraries-iphone/) they give you:
-* Uses SSKeychain to store account information, NOT NSUserDefaults
+Why it's potentially better than the [ReadItLaterFull/Lite](http://getpocket.com/api/libraries-iphone/) they give you:
+* Uses SSKeychain to store account information, **not** NSUserDefaults
 * Uses blocks. No more gross delegates.
+* Uses ARC
 
 Why it may not be better:
 * I really haven't tested it much. It authenticates and saves links at least. I haven't tested registering.
