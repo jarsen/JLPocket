@@ -12,7 +12,7 @@
 @implementation JLPocket
 
 #pragma mark - API Key
-static NSString *apikey = @"yourAPIKeyHere";	//Enter your apikey here : get one at http://readitlaterlist.com/api/ 
+static NSString *apikey = @"yourAPIKeyHere";	//Enter your apikey here : get one at http://getpocket.com/api/signup/ 
 static NSString *nameOfYourApp = @"JLPocket"; //Enter the name of your application here (optional - for user-agent string)
 
 #pragma mark - Keychain Constants
