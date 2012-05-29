@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E72C64A15752EDC003734C2 /* JLPocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E72C64515752EDC003734C2 /* JLPocket.m */; };
+		1E72C64B15752EDC003734C2 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E72C64715752EDC003734C2 /* NSString+URLEncode.m */; };
+		1E72C64C15752EDC003734C2 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E72C64915752EDC003734C2 /* SSKeychain.m */; };
+		1E72C65215753344003734C2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E72C65115753344003734C2 /* Security.framework */; };
+		1ED95E921574841900E68E42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED95E911574841900E68E42 /* UIKit.framework */; };
+		1ED95E941574841900E68E42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED95E931574841900E68E42 /* Foundation.framework */; };
+		1ED95E961574841900E68E42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED95E951574841900E68E42 /* CoreGraphics.framework */; };
+		1ED95E9C1574841900E68E42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ED95E9A1574841900E68E42 /* InfoPlist.strings */; };
+		1ED95E9E1574841900E68E42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED95E9D1574841900E68E42 /* main.m */; };
+		1ED95EA21574841900E68E42 /* JLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED95EA11574841900E68E42 /* JLAppDelegate.m */; };
+		1ED95EA51574841900E68E42 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED95EA31574841900E68E42 /* MainStoryboard.storyboard */; };
+		1ED95EBD157488B500E68E42 /* JLPocketDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED95EB7157488B500E68E42 /* JLPocketDemoViewController.m */; };
+		1ED95EBE157488B500E68E42 /* JLPocketLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED95EB9157488B500E68E42 /* JLPocketLoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E72C64415752EDC003734C2 /* JLPocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPocket.h; sourceTree = "<group>"; };
+		1E72C64515752EDC003734C2 /* JLPocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPocket.m; sourceTree = "<group>"; };
+		1E72C64615752EDC003734C2 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		1E72C64715752EDC003734C2 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		1E72C64815752EDC003734C2 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		1E72C64915752EDC003734C2 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		1E72C65115753344003734C2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1ED95E8D1574841900E68E42 /* JLPocketDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLPocketDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED95E911574841900E68E42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1ED95E931574841900E68E42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1ED95E951574841900E68E42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1ED95E991574841900E68E42 /* JLPocketDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLPocketDemo-Info.plist"; sourceTree = "<group>"; };
+		1ED95E9B1574841900E68E42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1ED95E9D1574841900E68E42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1ED95E9F1574841900E68E42 /* JLPocketDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLPocketDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1ED95EA01574841900E68E42 /* JLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLAppDelegate.h; sourceTree = "<group>"; };
+		1ED95EA11574841900E68E42 /* JLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLAppDelegate.m; sourceTree = "<group>"; };
+		1ED95EA41574841900E68E42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1ED95EB6157488B500E68E42 /* JLPocketDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPocketDemoViewController.h; sourceTree = "<group>"; };
+		1ED95EB7157488B500E68E42 /* JLPocketDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPocketDemoViewController.m; sourceTree = "<group>"; };
+		1ED95EB8157488B500E68E42 /* JLPocketLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPocketLoginViewController.h; sourceTree = "<group>"; };
+		1ED95EB9157488B500E68E42 /* JLPocketLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPocketLoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ED95E8A1574841900E68E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E72C65215753344003734C2 /* Security.framework in Frameworks */,
+				1ED95E921574841900E68E42 /* UIKit.framework in Frameworks */,
+				1ED95E941574841900E68E42 /* Foundation.framework in Frameworks */,
+				1ED95E961574841900E68E42 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E72C64315752EDC003734C2 /* JLPocket */ = {
+			isa = PBXGroup;
+			children = (
+				1E72C64415752EDC003734C2 /* JLPocket.h */,
+				1E72C64515752EDC003734C2 /* JLPocket.m */,
+				1E72C64615752EDC003734C2 /* NSString+URLEncode.h */,
+				1E72C64715752EDC003734C2 /* NSString+URLEncode.m */,
+				1E72C64815752EDC003734C2 /* SSKeychain.h */,
+				1E72C64915752EDC003734C2 /* SSKeychain.m */,
+			);
+			path = JLPocket;
+			sourceTree = "<group>";
+		};
+		1ED95E821574841900E68E42 = {
+			isa = PBXGroup;
+			children = (
+				1E72C65115753344003734C2 /* Security.framework */,
+				1ED95E971574841900E68E42 /* JLPocketDemo */,
+				1ED95E901574841900E68E42 /* Frameworks */,
+				1ED95E8E1574841900E68E42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ED95E8E1574841900E68E42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ED95E8D1574841900E68E42 /* JLPocketDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ED95E901574841900E68E42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ED95E911574841900E68E42 /* UIKit.framework */,
+				1ED95E931574841900E68E42 /* Foundation.framework */,
+				1ED95E951574841900E68E42 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ED95E971574841900E68E42 /* JLPocketDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1E72C64315752EDC003734C2 /* JLPocket */,
+				1ED95EB6157488B500E68E42 /* JLPocketDemoViewController.h */,
+				1ED95EB7157488B500E68E42 /* JLPocketDemoViewController.m */,
+				1ED95EB8157488B500E68E42 /* JLPocketLoginViewController.h */,
+				1ED95EB9157488B500E68E42 /* JLPocketLoginViewController.m */,
+				1ED95EA01574841900E68E42 /* JLAppDelegate.h */,
+				1ED95EA11574841900E68E42 /* JLAppDelegate.m */,
+				1ED95EA31574841900E68E42 /* MainStoryboard.storyboard */,
+				1ED95E981574841900E68E42 /* Supporting Files */,
+			);
+			path = JLPocketDemo;
+			sourceTree = "<group>";
+		};
+		1ED95E981574841900E68E42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ED95E991574841900E68E42 /* JLPocketDemo-Info.plist */,
+				1ED95E9A1574841900E68E42 /* InfoPlist.strings */,
+				1ED95E9D1574841900E68E42 /* main.m */,
+				1ED95E9F1574841900E68E42 /* JLPocketDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ED95E8C1574841900E68E42 /* JLPocketDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ED95EAB1574841900E68E42 /* Build configuration list for PBXNativeTarget "JLPocketDemo" */;
+			buildPhases = (
+				1ED95E891574841900E68E42 /* Sources */,
+				1ED95E8A1574841900E68E42 /* Frameworks */,
+				1ED95E8B1574841900E68E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLPocketDemo;
+			productName = JLPocketDemo;
+			productReference = 1ED95E8D1574841900E68E42 /* JLPocketDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ED95E841574841900E68E42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JL;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1ED95E871574841900E68E42 /* Build configuration list for PBXProject "JLPocketDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1ED95E821574841900E68E42;
+			productRefGroup = 1ED95E8E1574841900E68E42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ED95E8C1574841900E68E42 /* JLPocketDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ED95E8B1574841900E68E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED95E9C1574841900E68E42 /* InfoPlist.strings in Resources */,
+				1ED95EA51574841900E68E42 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ED95E891574841900E68E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED95E9E1574841900E68E42 /* main.m in Sources */,
+				1ED95EA21574841900E68E42 /* JLAppDelegate.m in Sources */,
+				1ED95EBD157488B500E68E42 /* JLPocketDemoViewController.m in Sources */,
+				1ED95EBE157488B500E68E42 /* JLPocketLoginViewController.m in Sources */,
+				1E72C64A15752EDC003734C2 /* JLPocket.m in Sources */,
+				1E72C64B15752EDC003734C2 /* NSString+URLEncode.m in Sources */,
+				1E72C64C15752EDC003734C2 /* SSKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1ED95E9A1574841900E68E42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED95E9B1574841900E68E42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1ED95EA31574841900E68E42 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED95EA41574841900E68E42 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ED95EA91574841900E68E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Larsen (33RT8W3F75)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "A7A3CE73-6034-4A50-91A5-473BA8B3D9DD";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1ED95EAA1574841900E68E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ED95EAC1574841900E68E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLPocketDemo/JLPocketDemo-Prefix.pch";
+				INFOPLIST_FILE = "JLPocketDemo/JLPocketDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1ED95EAD1574841900E68E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLPocketDemo/JLPocketDemo-Prefix.pch";
+				INFOPLIST_FILE = "JLPocketDemo/JLPocketDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ED95E871574841900E68E42 /* Build configuration list for PBXProject "JLPocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED95EA91574841900E68E42 /* Debug */,
+				1ED95EAA1574841900E68E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ED95EAB1574841900E68E42 /* Build configuration list for PBXNativeTarget "JLPocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED95EAC1574841900E68E42 /* Debug */,
+				1ED95EAD1574841900E68E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ED95E841574841900E68E42 /* Project object */;
+}
